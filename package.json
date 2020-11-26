@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "DEBUG=* node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3"
+  },
+  "resolutions": {
+    "**/debug": "npm:debug-noop@*"
+  }
+}
